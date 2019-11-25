@@ -1,0 +1,16 @@
+.videoes{
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow:scroll;
+    border-bottom: 1rem solid white;
+}
+
+
+
+input[type="text"] {
+    width: 200px;
+    padding:.4rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
